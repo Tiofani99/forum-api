@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1643291369573" clover="3.2.0">
+  <project timestamp="1643291369573" name="All files">
+    <metrics statements="129" coveredstatements="108" conditionals="25" coveredconditionals="20" methods="27" coveredmethods="19" elements="181" coveredelements="147" complexity="0" loc="129" ncloc="129" packages="10" files="15" classes="15"/>
+    <package name="src.Applications.security">
+      <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="AuthTokenManager.js" path="E:\Learn Folder\dicoding\forum-api\src\Applications\security\AuthTokenManager.js">
+        <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Applications.use_case">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="ThreadUseCase.js" path="E:\Learn Folder\dicoding\forum-api\src\Applications\use_case\ThreadUseCase.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Commons.exceptions">
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="DomainErrorTranslator.js" path="E:\Learn Folder\dicoding\forum-api\src\Commons\exceptions\DomainErrorTranslator.js">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="5" count="38" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="5" type="stmt"/>
+        <line num="31" count="5" type="stmt"/>
+      </file>
+      <file name="InvariantError.js" path="E:\Learn Folder\dicoding\forum-api\src\Commons\exceptions\InvariantError.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="5" count="97" type="stmt"/>
+        <line num="7" count="97" type="stmt"/>
+        <line num="11" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Domains.threads">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ThreadRepository.js" path="E:\Learn Folder\dicoding\forum-api\src\Domains\threads\ThreadRepository.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Domains.threads.entities">
+      <metrics statements="17" coveredstatements="17" conditionals="18" coveredconditionals="18" methods="4" coveredmethods="4"/>
+      <file name="CreateThread.js" path="E:\Learn Folder\dicoding\forum-api\src\Domains\threads\entities\CreateThread.js">
+        <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="10" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="19" count="5" type="stmt"/>
+      </file>
+      <file name="CreatedThread.js" path="E:\Learn Folder\dicoding\forum-api\src\Domains\threads\entities\CreatedThread.js">
+        <metrics statements="9" coveredstatements="9" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="11" count="8" type="cond" truecount="5" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="7" type="cond" truecount="5" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="20" count="7" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Infrastructures">
+      <metrics statements="22" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="container.js" path="E:\Learn Folder\dicoding\forum-api\src\Infrastructures\container.js">
+        <metrics statements="22" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="96" count="4" type="stmt"/>
+        <line num="154" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Infrastructures.http">
+      <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="createServer.js" path="E:\Learn Folder\dicoding\forum-api\src\Infrastructures\http\createServer.js">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="26" type="stmt"/>
+        <line num="13" count="26" type="stmt"/>
+        <line num="15" count="26" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="34" count="26" type="stmt"/>
+        <line num="55" count="26" type="stmt"/>
+        <line num="58" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Infrastructures.repository.postgres">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="ThreadRepositoryPostgres.js" path="E:\Learn Folder\dicoding\forum-api\src\Infrastructures\repository\postgres\ThreadRepositoryPostgres.js">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="25" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.Interfaces.http.api.threads">
+      <metrics statements="24" coveredstatements="19" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="handler.js" path="E:\Learn Folder\dicoding\forum-api\src\Interfaces\http\api\threads\handler.js">
+        <metrics statements="16" coveredstatements="11" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="7" count="26" type="stmt"/>
+        <line num="9" count="26" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="41" count="4" type="stmt"/>
+      </file>
+      <file name="index.js" path="E:\Learn Folder\dicoding\forum-api\src\Interfaces\http\api\threads\index.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="8" count="26" type="stmt"/>
+        <line num="10" count="26" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+      </file>
+      <file name="routes.js" path="E:\Learn Folder\dicoding\forum-api\src\Interfaces\http\api\threads\routes.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="26" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="tests.database.postgres">
+      <metrics statements="21" coveredstatements="9" conditionals="3" coveredconditionals="0" methods="6" coveredmethods="2"/>
+      <file name="AuthenticationsTableTestHelper.js" path="E:\Learn Folder\dicoding\forum-api\tests\database\postgres\AuthenticationsTableTestHelper.js">
+        <metrics statements="9" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="19" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+      </file>
+      <file name="ThreadsTableTestHelper.js" path="E:\Learn Folder\dicoding\forum-api\tests\database\postgres\ThreadsTableTestHelper.js">
+        <metrics statements="12" coveredstatements="5" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
